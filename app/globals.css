@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  /* Pizzeria Messina Brand Colors */
+  --pizzeria-red: #B8342E;
+  --pizzeria-charcoal: #2C2824;
+  --pizzeria-cream: #FBF7F2;
+  --pizzeria-gold: #C8956C;
+  --pizzeria-olive: #4A6741;
+  --pizzeria-warm-gray: #7A7168;
+  --secondary: #F0EAE2;
+  --border: #E5DDD3;
+}
+
+@layer base {
+  html, body {
+    height: 100%;
+  }
+
+  /* Font utilities */
+  .font-display {
+    font-family: "Playfair Display", serif;
+  }
+
+  .font-body {
+    font-family: "Inter", sans-serif;
+  }
+}

@@ -1,0 +1,2897 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "5HiFT",
+      "x": -377,
+      "y": 736,
+      "name": "Pizzeria Messina - Homepage",
+      "clip": true,
+      "width": 1440,
+      "fill": "$--pizzeria-cream",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "41kDb",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "$--pizzeria-charcoal",
+          "padding": [
+            0,
+            60
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "5veK5",
+              "name": "logoArea",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "8WN4i",
+                  "name": "logoIcon",
+                  "width": 32,
+                  "height": 32,
+                  "iconFontName": "pizza",
+                  "iconFontFamily": "lucide",
+                  "fill": "$--pizzeria-red"
+                },
+                {
+                  "type": "text",
+                  "id": "UwlYZ",
+                  "name": "logoText",
+                  "fill": "#FFFFFF",
+                  "content": "PIZZERIA MESSINA",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BpWTv",
+              "name": "navArea",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EQweb",
+                  "name": "navMenu",
+                  "fill": "#FFFFFFCC",
+                  "content": "Meny",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "qZygO",
+                  "name": "navAbout",
+                  "fill": "#FFFFFFCC",
+                  "content": "Om oss",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "nyXyd",
+                  "name": "navLunch",
+                  "fill": "#FFFFFFCC",
+                  "content": "Lunch",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "text",
+                  "id": "t1EaN",
+                  "name": "navContact",
+                  "fill": "#FFFFFFCC",
+                  "content": "Kontakt",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                },
+                {
+                  "type": "frame",
+                  "id": "3ZQqa",
+                  "name": "ctaOrder",
+                  "fill": "$--pizzeria-red",
+                  "cornerRadius": 999,
+                  "gap": 8,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "sAZFW",
+                      "name": "ctaIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "shopping-bag",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S2KaU",
+                      "name": "ctaText",
+                      "fill": "#FFFFFF",
+                      "content": "Beställ Online",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "O9ZNn",
+                  "name": "phoneArea",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "YP4FL",
+                      "name": "phoneIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "phone",
+                      "iconFontFamily": "lucide",
+                      "fill": "$--pizzeria-gold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "81m9Y",
+                      "name": "phoneText",
+                      "fill": "$--pizzeria-gold",
+                      "content": "08-447 70 64",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Qxfmn",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "height": 680,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Gabbn",
+              "x": 0,
+              "y": 0,
+              "name": "Hero BG",
+              "metadata": {
+                "type": "unsplash",
+                "username": "socreativeagy",
+                "link": "https://unsplash.com/@socreativeagy",
+                "author": "SO Creative"
+              },
+              "width": 1440,
+              "height": 680,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1771568995639.png",
+                "mode": "fill"
+              },
+              "layout": "none"
+            },
+            {
+              "type": "rectangle",
+              "id": "HniMk",
+              "x": 0,
+              "y": 0,
+              "name": "Overlay",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#2C2824CC",
+                    "position": 0
+                  },
+                  {
+                    "color": "#2C282455",
+                    "position": 0.5
+                  },
+                  {
+                    "color": "#2C282488",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1440,
+              "height": 680
+            },
+            {
+              "type": "frame",
+              "id": "eehme",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Content",
+              "width": 1440,
+              "height": 680,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                120,
+                120,
+                80,
+                120
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bDpF6",
+                  "name": "heroTagline",
+                  "fill": "$--pizzeria-gold",
+                  "content": "SEDAN 1980 I TYRESÖ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "efdOz",
+                  "name": "heroTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Gott, Färskt &\nSmarrigt",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 72,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "znWlD",
+                  "name": "heroSub",
+                  "fill": "#FFFFFFCC",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "Autentisk italiensk pizza med kärlek — snabb och vänlig service\nvarje dag i hjärtat av Tyresö.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "nPSpJ",
+                  "name": "Hero CTAs",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mngIh",
+                      "name": "ctaPrimary",
+                      "fill": "$--pizzeria-red",
+                      "cornerRadius": 999,
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "g5WEb",
+                          "name": "ctaPIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "shopping-bag",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NGjKN",
+                          "name": "ctaPText",
+                          "fill": "#FFFFFF",
+                          "content": "Beställ Online",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EEyqZ",
+                      "name": "ctaSecondary",
+                      "fill": "#FFFFFF1A",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#FFFFFF44"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "3lRTu",
+                          "name": "ctaSIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "utensils",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Dt9Lp",
+                          "name": "ctaSText",
+                          "fill": "#FFFFFF",
+                          "content": "Se Menyn",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "enX9t",
+                      "name": "ctaPhone",
+                      "fill": "#FFFFFF1A",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#FFFFFF44"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Q91vx",
+                          "name": "ctaPhIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "phone",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "1n8NX",
+                          "name": "ctaPhText",
+                          "fill": "#FFFFFF",
+                          "content": "Ring & Boka",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HN3dz",
+          "name": "Menu Highlights",
+          "width": "fill_container",
+          "fill": "$--pizzeria-cream",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            60
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "PLygq",
+              "name": "sectionHeader",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w0GA1",
+                  "name": "sectionLabel",
+                  "fill": "$--pizzeria-red",
+                  "content": "VÅR MENY",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "yxlJx",
+                  "name": "sectionTitle",
+                  "fill": "$--pizzeria-charcoal",
+                  "content": "Utforska våra rätter",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "wVbhW",
+                  "name": "sectionSub",
+                  "fill": "$--pizzeria-warm-gray",
+                  "content": "Från klassisk napolitansk pizza till krispiga sallader och hemlagad pasta",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Wq5pO",
+              "name": "Card Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WeWby",
+                  "name": "Pizza Card",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A171410",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qA0ZJ",
+                      "name": "Pizza Image",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "ashache_",
+                        "link": "https://unsplash.com/@ashache_",
+                        "author": "Émile Dionne"
+                      },
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1760733632712-7b39a620a861?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1Njg3MTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Tll5M",
+                      "name": "card1Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "s6mJ1",
+                          "name": "card1Title",
+                          "fill": "$--pizzeria-charcoal",
+                          "content": "Pizzor",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YKJmp",
+                          "name": "card1Desc",
+                          "fill": "$--pizzeria-warm-gray",
+                          "textGrowth": "fixed-width",
+                          "width": 260,
+                          "content": "16 sorters pizza — från klassisk Margherita till vår egna Messina Special",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "2Tf4C",
+                          "name": "card1Link",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "7mBqx",
+                              "name": "card1LinkText",
+                              "fill": "$--pizzeria-red",
+                              "content": "Se alla pizzor",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "Pjeqh",
+                              "name": "card1Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "arrow-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "$--pizzeria-red"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pRqjG",
+                  "name": "Kebab Card",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A171410",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "r1Iij",
+                      "name": "Kebab Image",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "aegoplaces",
+                        "link": "https://unsplash.com/@aegoplaces",
+                        "author": "Aleksandar Rusev"
+                      },
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1768322264423-4b0adf0cf31b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1Njg3MjN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sYKrI",
+                      "name": "card2Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nHOZC",
+                          "name": "card2Title",
+                          "fill": "$--pizzeria-charcoal",
+                          "content": "Kebab & Gyros",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NdMq8",
+                          "name": "card2Desc",
+                          "fill": "$--pizzeria-warm-gray",
+                          "textGrowth": "fixed-width",
+                          "width": 260,
+                          "content": "Kebab, gyros och falafel — serverat med fräscha tillbehör",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Xlqhn",
+                          "name": "card2Link",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "E4o4k",
+                              "name": "card2LinkText",
+                              "fill": "$--pizzeria-red",
+                              "content": "Se kebab-menyn",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "gg2go",
+                              "name": "card2Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "arrow-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "$--pizzeria-red"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l18mQ",
+                  "name": "Pasta Card",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A171410",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "7X32B",
+                      "name": "Pasta Image",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "ninjason",
+                        "link": "https://unsplash.com/@ninjason",
+                        "author": "Jason Leung"
+                      },
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1515516969-d4008cc6241a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1Njg5Mzh8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zR5gJ",
+                      "name": "card3Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W6XXr",
+                          "name": "card3Title",
+                          "fill": "$--pizzeria-charcoal",
+                          "content": "Pasta",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4746J",
+                          "name": "card3Desc",
+                          "fill": "$--pizzeria-warm-gray",
+                          "textGrowth": "fixed-width",
+                          "width": 260,
+                          "content": "Bolognese, Carbonara, Lasagne — hemlagad pasta alla panna",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yMTF6",
+                          "name": "card3Link",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "0hF7l",
+                              "name": "card3LinkText",
+                              "fill": "$--pizzeria-red",
+                              "content": "Se pasta-menyn",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "G8IqJ",
+                              "name": "card3Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "arrow-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "$--pizzeria-red"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y56fI",
+                  "name": "Salad Card",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1A171410",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 20
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LWmz3",
+                      "name": "Salad Image",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "john_cameron",
+                        "link": "https://unsplash.com/@john_cameron",
+                        "author": "John Cameron"
+                      },
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1730574047748-ec817899e039?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1Njg5MjZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ffEqL",
+                      "name": "card4Content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WXRSi",
+                          "name": "card4Title",
+                          "fill": "$--pizzeria-charcoal",
+                          "content": "Sallader",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XQjAk",
+                          "name": "card4Desc",
+                          "fill": "$--pizzeria-warm-gray",
+                          "textGrowth": "fixed-width",
+                          "width": 260,
+                          "content": "Fräscha sallader — grekisk, tonfisk, kyckling och mer",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "s4JDB",
+                          "name": "card4Link",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sjVEq",
+                              "name": "card4LinkText",
+                              "fill": "$--pizzeria-red",
+                              "content": "Se sallader",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "yqqax",
+                              "name": "card4Arrow",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "arrow-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "$--pizzeria-red"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "J6zUI",
+          "name": "About Section",
+          "clip": true,
+          "width": "fill_container",
+          "height": 520,
+          "fill": "$--pizzeria-charcoal",
+          "children": [
+            {
+              "type": "frame",
+              "id": "jCHgl",
+              "name": "aboutText",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                80,
+                60
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pbGrC",
+                  "name": "aboutLabel",
+                  "fill": "$--pizzeria-gold",
+                  "content": "VÅR HISTORIA",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "CJsjr",
+                  "name": "aboutTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Välkommen till\nPizzeria Messina",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "rNwPA",
+                  "name": "aboutDesc",
+                  "fill": "#FFFFFFBB",
+                  "textGrowth": "fixed-width",
+                  "width": 500,
+                  "content": "Sedan 1980 har vi serverat Tyresös invånare autentisk italiensk mat med passion och kärlek. Vår pizzeria på Trollbäcksvägen 34A är en plats där familjer samlas, vänner möts och alla känner sig som hemma.\n\nVi använder bara de finaste ingredienserna — importerad mozzarella, San Marzano-tomater och färska grönsaker — för att skapa rätter som tar dig rakt till Napoli.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "sktYF",
+                  "name": "aboutCta",
+                  "fill": "$--pizzeria-olive",
+                  "cornerRadius": 999,
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qxueN",
+                      "name": "aboutCtaText",
+                      "fill": "#FFFFFF",
+                      "content": "Läs mer om oss",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "RvAgm",
+                      "name": "aboutCtaArrow",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FmtLC",
+              "name": "About Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "shegiva",
+                "link": "https://unsplash.com/@shegiva",
+                "author": "Grigorii Shcheglov"
+              },
+              "width": 600,
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1736159402988-c701c85592ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1Njg3NTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xyhf4",
+          "name": "Full Menu Section",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            60
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "EEaM5",
+              "name": "menuHeader",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KFNJL",
+                  "name": "menuLabel",
+                  "fill": "$--pizzeria-red",
+                  "content": "KOMPLETT MENY",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "9hnzz",
+                  "name": "menuTitle",
+                  "fill": "$--pizzeria-charcoal",
+                  "content": "Våra populära rätter",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5NhDZ",
+              "name": "tabs",
+              "fill": "$--secondary",
+              "cornerRadius": 999,
+              "padding": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yqyg0",
+                  "name": "tabPizza",
+                  "fill": "$--pizzeria-charcoal",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DwmkN",
+                      "name": "tabPizzaText",
+                      "fill": "#FFFFFF",
+                      "content": "Pizzor",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4nTwD",
+                  "name": "tabKebab",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ySLAe",
+                      "name": "tabKebabText",
+                      "fill": "$--pizzeria-warm-gray",
+                      "content": "Kebab",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4frj4",
+                  "name": "tabPasta",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tKXGX",
+                      "name": "tabPastaText",
+                      "fill": "$--pizzeria-warm-gray",
+                      "content": "Pasta",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AUsnd",
+                  "name": "tabSallad",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xywb1",
+                      "name": "tabSalladText",
+                      "fill": "$--pizzeria-warm-gray",
+                      "content": "Sallader",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Yk5dc",
+                  "name": "tabBarn",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EUerF",
+                      "name": "tabBarnText",
+                      "fill": "$--pizzeria-warm-gray",
+                      "content": "Barnmeny",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5LOGO",
+                  "name": "tabAlaCarte",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Qufh1",
+                      "name": "tabAlaCarteText",
+                      "fill": "$--pizzeria-warm-gray",
+                      "content": "À la Carte",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Dk6al",
+              "name": "Menu Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "0xAK1",
+                  "name": "menuCol1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DoUe0",
+                      "name": "item1",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#E5DDD340"
+                      },
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "pYSIl",
+                          "name": "item1Left",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bGfdH",
+                              "name": "item1Name",
+                              "fill": "$--pizzeria-charcoal",
+                              "content": "Margherita",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ImEVQ",
+                              "name": "item1Desc",
+                              "fill": "$--pizzeria-warm-gray",
+                              "content": "Tomatsås, ost",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "IK3Lh",
+                          "name": "item1Price",
+                          "fill": "$--pizzeria-red",
+                          "content": "95 kr",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ne5jr",
+                      "name": "item2",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#E5DDD340"
+                      },
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Nb0xd",
+                          "name": "item2Left",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "OBhDr",
+                              "name": "item2Name",
+                              "fill": "$--pizzeria-charcoal",
+                              "content": "Capricciosa",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "LzNEu",
+                              "name": "item2Desc",
+                              "fill": "$--pizzeria-warm-gray",
+                              "content": "Tomatsås, ost, skinka, champinjoner",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Bdgf1",
+                          "name": "item2Price",
+                          "fill": "$--pizzeria-red",
+                          "content": "105 kr",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mxBfj",
+                      "name": "item3",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#E5DDD340"
+                      },
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IMlaY",
+                          "name": "item3Left",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GgdJb",
+                              "name": "item3Name",
+                              "fill": "$--pizzeria-charcoal",
+                              "content": "Hawaii",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "sFdIh",
+                              "name": "item3Desc",
+                              "fill": "$--pizzeria-warm-gray",
+                              "content": "Tomatsås, ost, skinka, ananas",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "wXjzl",
+                          "name": "item3Price",
+                          "fill": "$--pizzeria-red",
+                          "content": "105 kr",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "stxMi",
+                      "name": "item4",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#E5DDD340"
+                      },
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "XSlcG",
+                          "name": "item4Left",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "k42TB",
+                              "name": "item4Name",
+                              "fill": "$--pizzeria-charcoal",
+                              "content": "Messina Special",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "yHiT4",
+                              "name": "item4Desc",
+                              "fill": "$--pizzeria-warm-gray",
+                              "content": "Husets specialpizza med utvalda ingredienser",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Zm4UJ",
+                          "name": "item4Price",
+                          "fill": "$--pizzeria-red",
+                          "content": "125 kr",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ThPoQ",
+                  "name": "menuCol2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aJNeo",
+                      "name": "item5",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#E5DDD340"
+                      },
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "nB37Y",
+                          "name": "item5Left",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "itFRO",
+                              "name": "item5Name",
+                              "fill": "$--pizzeria-charcoal",
+                              "content": "Kebab Pizza",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "jeJzK",
+                              "name": "item5Desc",
+                              "fill": "$--pizzeria-warm-gray",
+                              "content": "Tomatsås, ost, kebabkött, lök, fefferoni",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "aAsiH",
+                          "name": "item5Price",
+                          "fill": "$--pizzeria-red",
+                          "content": "115 kr",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GuSIB",
+                      "name": "item6",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#E5DDD340"
+                      },
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VaGh0",
+                          "name": "item6Left",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "EFbY1",
+                              "name": "item6Name",
+                              "fill": "$--pizzeria-charcoal",
+                              "content": "Napolitana",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Gflki",
+                              "name": "item6Desc",
+                              "fill": "$--pizzeria-warm-gray",
+                              "content": "Tomatsås, ost, sardeller, oliver, kapris",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "yuKRu",
+                          "name": "item6Price",
+                          "fill": "$--pizzeria-red",
+                          "content": "110 kr",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oMa7p",
+                      "name": "item7",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#E5DDD340"
+                      },
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "dhngp",
+                          "name": "item7Left",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "q9cHV",
+                              "name": "item7Name",
+                              "fill": "$--pizzeria-charcoal",
+                              "content": "Gorgonzola",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "dm0H7",
+                              "name": "item7Desc",
+                              "fill": "$--pizzeria-warm-gray",
+                              "content": "Tomatsås, ost, gorgonzola, champinjoner",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "fBKMl",
+                          "name": "item7Price",
+                          "fill": "$--pizzeria-red",
+                          "content": "115 kr",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Jc8xH",
+                      "name": "item8",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "#E5DDD340"
+                      },
+                      "padding": [
+                        20,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "l7efp",
+                          "name": "item8Left",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "A2zoZ",
+                              "name": "item8Name",
+                              "fill": "$--pizzeria-charcoal",
+                              "content": "Vegetarisk",
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ZapFj",
+                              "name": "item8Desc",
+                              "fill": "$--pizzeria-warm-gray",
+                              "content": "Tomatsås, ost, paprika, champinjoner, lök, oliver",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "5jRjF",
+                          "name": "item8Price",
+                          "fill": "$--pizzeria-red",
+                          "content": "105 kr",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vzy8I",
+              "name": "viewAllBtn",
+              "fill": "$--pizzeria-red",
+              "cornerRadius": 999,
+              "gap": 8,
+              "padding": [
+                14,
+                32
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GoshS",
+                  "name": "viewAllText",
+                  "fill": "#FFFFFF",
+                  "content": "Se hela menyn",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "6PD8U",
+                  "name": "viewAllIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "arrow-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Cw2Hm",
+          "name": "Contact Section",
+          "width": "fill_container",
+          "fill": "$--pizzeria-cream",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            60
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "n6FwO",
+              "name": "contactHeader",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F2qsx",
+                  "name": "contactLabel",
+                  "fill": "$--pizzeria-red",
+                  "content": "KONTAKTA OSS",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "waFWH",
+                  "name": "contactTitle",
+                  "fill": "$--pizzeria-charcoal",
+                  "content": "Hitta oss & hör av dig",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ducbN",
+              "name": "contactGrid",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BpZvz",
+                  "name": "contactLeft",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ne8xZ",
+                      "name": "infoCard",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1A171410",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 24,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PNf9S",
+                          "name": "addrRow",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "JRyU7",
+                              "name": "addrIcon",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "map-pin",
+                              "iconFontFamily": "lucide",
+                              "fill": "$--pizzeria-red"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "lSuwy",
+                              "name": "addrInfo",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "RyROK",
+                                  "name": "addrLabel",
+                                  "fill": "$--pizzeria-warm-gray",
+                                  "content": "Adress",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "J7Cyn",
+                                  "name": "addrText",
+                                  "fill": "$--pizzeria-charcoal",
+                                  "content": "Trollbäcksvägen 34A\n135 50 Tyresö, Sverige",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 15,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EGfEj",
+                          "name": "phoneRow",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "QpS78",
+                              "name": "phoneRowIcon",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "phone",
+                              "iconFontFamily": "lucide",
+                              "fill": "$--pizzeria-red"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "eejwf",
+                              "name": "phoneInfo",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ZW0K2",
+                                  "name": "phoneLabel",
+                                  "fill": "$--pizzeria-warm-gray",
+                                  "content": "Telefon",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "NPV4Y",
+                                  "name": "phoneTextVal",
+                                  "fill": "$--pizzeria-charcoal",
+                                  "content": "+46 8 447 70 64",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 15,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "723s7",
+                          "name": "hoursRow",
+                          "gap": 16,
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "uy41h",
+                              "name": "hoursIcon",
+                              "width": 22,
+                              "height": 22,
+                              "iconFontName": "clock",
+                              "iconFontFamily": "lucide",
+                              "fill": "$--pizzeria-red"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kJeVE",
+                              "name": "hoursInfo",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "uutGO",
+                                  "name": "hoursLabel",
+                                  "fill": "$--pizzeria-warm-gray",
+                                  "content": "Öppettider",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "7AenR",
+                                  "name": "hoursText",
+                                  "fill": "$--pizzeria-charcoal",
+                                  "content": "Måndag – Fredag: 10:00 – 21:00\nLördag – Söndag: 12:00 – 21:00\nSista beställning: 20:45",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 15,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AOrvH",
+                          "name": "socialRow",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SA1n1",
+                              "name": "socialLabel",
+                              "fill": "$--pizzeria-warm-gray",
+                              "content": "Följ oss:",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "1BKL9",
+                              "name": "fbBtn",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "$--pizzeria-charcoal",
+                              "cornerRadius": 999,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "h8uFy",
+                                  "name": "fbIcon",
+                                  "width": 18,
+                                  "height": 18,
+                                  "iconFontName": "facebook",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "nBLNI",
+                              "name": "igBtn",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "$--pizzeria-charcoal",
+                              "cornerRadius": 999,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "heyoM",
+                                  "name": "igIcon",
+                                  "width": 18,
+                                  "height": 18,
+                                  "iconFontName": "instagram",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qYCDS",
+                              "name": "tkBtn",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "$--pizzeria-charcoal",
+                              "cornerRadius": 999,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "xHUem",
+                                  "name": "tkIcon",
+                                  "width": 18,
+                                  "height": 18,
+                                  "iconFontName": "music",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9QfGX",
+                  "name": "contactRight",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eRI6Q",
+                      "name": "Map",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "arkviation",
+                        "link": "https://unsplash.com/@arkviation",
+                        "author": "Arkin Si"
+                      },
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1710712086052-d8454fcdbcae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzE1Njg4NDJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "L5Pr3",
+                      "name": "formCard",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1A171410",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3zTqN",
+                          "name": "formTitle",
+                          "fill": "$--pizzeria-charcoal",
+                          "content": "Skicka ett meddelande",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BXtkt",
+                          "name": "formRow1",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "7TmWJ",
+                              "name": "nameField",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vHDtS",
+                                  "name": "nameLabel",
+                                  "fill": "$--pizzeria-charcoal",
+                                  "content": "Namn",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "l7aEe",
+                                  "name": "nameInput",
+                                  "width": "fill_container",
+                                  "height": 44,
+                                  "fill": "#FFFFFF",
+                                  "cornerRadius": 8,
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "$--border"
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "PMrfX",
+                                      "name": "namePlaceholder",
+                                      "fill": "#B0A89E",
+                                      "content": "Ditt namn",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "FI1Xd",
+                              "name": "phoneField",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "4WSTq",
+                                  "name": "phoneFieldLabel",
+                                  "fill": "$--pizzeria-charcoal",
+                                  "content": "Telefon",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "T5XAp",
+                                  "name": "phoneFieldInput",
+                                  "width": "fill_container",
+                                  "height": 44,
+                                  "fill": "#FFFFFF",
+                                  "cornerRadius": 8,
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "$--border"
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "41066",
+                                      "name": "phoneFieldPlaceholder",
+                                      "fill": "#B0A89E",
+                                      "content": "Ditt telefonnummer",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "za4i7",
+                          "name": "emailField",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "uaOcX",
+                              "name": "emailLabel",
+                              "fill": "$--pizzeria-charcoal",
+                              "content": "E-post",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "BJb5o",
+                              "name": "emailInput",
+                              "width": "fill_container",
+                              "height": 44,
+                              "fill": "#FFFFFF",
+                              "cornerRadius": 8,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "$--border"
+                              },
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "IxFks",
+                                  "name": "emailPlaceholder",
+                                  "fill": "#B0A89E",
+                                  "content": "din@epost.se",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gjyJE",
+                          "name": "msgField",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "4wrou",
+                              "name": "msgLabel",
+                              "fill": "$--pizzeria-charcoal",
+                              "content": "Meddelande",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "iARGw",
+                              "name": "msgInput",
+                              "width": "fill_container",
+                              "height": 100,
+                              "fill": "#FFFFFF",
+                              "cornerRadius": 8,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "$--border"
+                              },
+                              "layout": "vertical",
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "EZs1W",
+                                  "name": "msgPlaceholder",
+                                  "fill": "#B0A89E",
+                                  "content": "Skriv ditt meddelande här...",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BxIND",
+                          "name": "submitBtn",
+                          "width": "fill_container",
+                          "height": 48,
+                          "fill": "$--pizzeria-red",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mUhLI",
+                              "name": "submitText",
+                              "fill": "#FFFFFF",
+                              "content": "Skicka meddelande",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "DThbq",
+                              "name": "submitIcon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "send",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "x3OJZ",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$--pizzeria-charcoal",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            60,
+            60,
+            32,
+            60
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "DdDgM",
+              "name": "footerTop",
+              "width": "fill_container",
+              "gap": 48,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RXxkE",
+                  "name": "footerBrand",
+                  "width": 320,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RM4HR",
+                      "name": "footerLogo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "K3X3Y",
+                          "name": "footerLogoIcon",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "pizza",
+                          "iconFontFamily": "lucide",
+                          "fill": "$--pizzeria-red"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fXQcm",
+                          "name": "footerLogoText",
+                          "fill": "#FFFFFF",
+                          "content": "PIZZERIA MESSINA",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 20,
+                          "fontWeight": "700",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "NLXOB",
+                      "name": "footerDesc",
+                      "fill": "#FFFFFF99",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "Autentisk italiensk pizzeria i Tyresö sedan 1980. Gott, färskt och smarrigt — alltid med kärlek.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yN0u7",
+                      "name": "footerSocials",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "I7Jd4",
+                          "name": "fsFb",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#FFFFFF15",
+                          "cornerRadius": 999,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "P4JdZ",
+                              "name": "fsFbIcon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "facebook",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF99"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Py7bs",
+                          "name": "fsIg",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#FFFFFF15",
+                          "cornerRadius": 999,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "2Cvy4",
+                              "name": "fsIgIcon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "instagram",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF99"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "x1Yh1",
+                          "name": "fsTk",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#FFFFFF15",
+                          "cornerRadius": 999,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "DvJhw",
+                              "name": "fsTkIcon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "music",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF99"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4aSuv",
+                  "name": "footerNav",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "brcQ4",
+                      "name": "footerNavTitle",
+                      "fill": "$--pizzeria-gold",
+                      "content": "Navigation",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "jQKt6",
+                      "name": "footerNavItem1",
+                      "fill": "#FFFFFF99",
+                      "content": "Meny",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xNv0J",
+                      "name": "footerNavItem2",
+                      "fill": "#FFFFFF99",
+                      "content": "Om oss",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YLoyr",
+                      "name": "footerNavItem3",
+                      "fill": "#FFFFFF99",
+                      "content": "Lunch",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vLEyC",
+                      "name": "footerNavItem4",
+                      "fill": "#FFFFFF99",
+                      "content": "Kontakt",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZIcNY",
+                      "name": "footerNavItem5",
+                      "fill": "#FFFFFF99",
+                      "content": "Beställ Online",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CIktX",
+                  "name": "footerMenu",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eLfO8",
+                      "name": "footerMenuTitle",
+                      "fill": "$--pizzeria-gold",
+                      "content": "Meny",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "5hTJ8",
+                      "name": "footerMenuItem1",
+                      "fill": "#FFFFFF99",
+                      "content": "Pizzor",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jUseD",
+                      "name": "footerMenuItem2",
+                      "fill": "#FFFFFF99",
+                      "content": "Kebab & Gyros",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ezrVC",
+                      "name": "footerMenuItem3",
+                      "fill": "#FFFFFF99",
+                      "content": "Pasta",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sCqds",
+                      "name": "footerMenuItem4",
+                      "fill": "#FFFFFF99",
+                      "content": "Sallader",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PkSVu",
+                      "name": "footerMenuItem5",
+                      "fill": "#FFFFFF99",
+                      "content": "Barnmeny",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j6vr6",
+                      "name": "footerMenuItem6",
+                      "fill": "#FFFFFF99",
+                      "content": "À la Carte",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "o0vwA",
+                  "name": "footerContact",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XMTEJ",
+                      "name": "footerContactTitle",
+                      "fill": "$--pizzeria-gold",
+                      "content": "Kontakt",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "BXOg8",
+                      "name": "footerAddr",
+                      "fill": "#FFFFFF99",
+                      "content": "Trollbäcksvägen 34A\n135 50 Tyresö",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "22YLq",
+                      "name": "footerPhone2",
+                      "fill": "#FFFFFF99",
+                      "content": "+46 8 447 70 64",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vwef1",
+                      "name": "footerHours",
+                      "fill": "#FFFFFF99",
+                      "content": "Mån–Fre: 10–21\nLör–Sön: 12–21",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "HVfUm",
+              "name": "footerDivider",
+              "fill": "#FFFFFF15",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "unqMq",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F28ZY",
+                  "name": "footerCopy",
+                  "fill": "#FFFFFF66",
+                  "content": "© 2025 Pizzeria Messina. Alla rättigheter förbehållna.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "YTDMb",
+                  "name": "footerLegal",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WfkEJ",
+                      "name": "footerLegal1",
+                      "fill": "#FFFFFF66",
+                      "content": "Integritetspolicy",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "I3pwL",
+                      "name": "footerLegal2",
+                      "fill": "#FFFFFF66",
+                      "content": "Villkor",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "Mode": [
+      "Light",
+      "Dark"
+    ]
+  },
+  "variables": {
+    "--pizzeria-cream": {
+      "type": "color",
+      "value": "#FBF7F2"
+    },
+    "--pizzeria-charcoal": {
+      "type": "color",
+      "value": "#2C2824"
+    },
+    "--pizzeria-red": {
+      "type": "color",
+      "value": "#B8342E"
+    },
+    "--pizzeria-gold": {
+      "type": "color",
+      "value": "#C8956C"
+    },
+    "--pizzeria-warm-gray": {
+      "type": "color",
+      "value": "#7A7168"
+    },
+    "--pizzeria-olive": {
+      "type": "color",
+      "value": "#4A6741"
+    },
+    "--secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E8E5"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#F0EAE2"
+        }
+      ]
+    },
+    "--border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        },
+        {
+          "value": "#E5DDD3"
+        }
+      ]
+    }
+  }
+}
