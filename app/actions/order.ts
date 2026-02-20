@@ -1,6 +1,6 @@
 'use server';
 
-import { sendOrderWhatsApp, OrderDetails } from '@/lib/whatsapp';
+import { sendOrderEmail, OrderDetails } from '@/lib/email';
 
 export interface OrderItem {
   name: string;
@@ -58,19 +58,14 @@ export async function submitOrder(formData: OrderFormData): Promise<OrderResult>
     pickupTime: formData.pickupTime,
     items: formData.items,
     specialInstructions: formData.specialInstructions,
+    orderId,
   };
 
-  // Send WhatsApp notification
-  const whatsappSent = await sendOrderWhatsApp(orderDetails);
+  // Send email notification
+  const emailSent = await sendOrderEmail(orderDetails);
 
-  if (!whatsappSent) {
-    // If WhatsApp fails, we should still accept the order but log the issue
-    console.error(`Failed to send WhatsApp for order ${orderId}`);
-
-    // In production, you might want to:
-    // 1. Store the order in a database
-    // 2. Send an email as backup
-    // 3. Retry the SMS later
+  if (!emailSent) {
+    console.error(`Failed to send email for order ${orderId}`);
 
     return {
       success: true,
