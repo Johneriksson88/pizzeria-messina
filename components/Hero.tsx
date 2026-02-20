@@ -39,13 +39,13 @@ export default function Hero() {
 
           {/* CTAs */}
           <div className="mt-2 flex items-center gap-4">
-            <a
-              href="tel:+4684477064"
+            <Link
+              href="/bestall"
               className="flex items-center gap-2 rounded-full bg-[var(--pizzeria-red)] px-8 py-4 text-base font-semibold text-white transition-opacity hover:opacity-90"
             >
               <ShoppingBag className="h-[18px] w-[18px]" />
               <span>Beställ Online</span>
-            </a>
+            </Link>
 
             <Link
               href="/meny"

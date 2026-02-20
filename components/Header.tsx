@@ -42,13 +42,13 @@ export default function Header() {
         </Link>
 
         {/* Order Button */}
-        <a
-          href="tel:+4684477064"
+        <Link
+          href="/bestall"
           className="flex items-center gap-2 rounded-full bg-[var(--pizzeria-red)] px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
         >
           <ShoppingBag className="h-4 w-4" />
           <span>Beställ Online</span>
-        </a>
+        </Link>
 
         {/* Phone */}
         <a
