@@ -1,6 +1,6 @@
 'use server';
 
-import { sendOrderSMS, OrderDetails } from '@/lib/twilio';
+import { sendOrderWhatsApp, OrderDetails } from '@/lib/whatsapp';
 
 export interface OrderItem {
   name: string;
@@ -60,12 +60,12 @@ export async function submitOrder(formData: OrderFormData): Promise<OrderResult>
     specialInstructions: formData.specialInstructions,
   };
 
-  // Send SMS notification
-  const smsSent = await sendOrderSMS(orderDetails);
+  // Send WhatsApp notification
+  const whatsappSent = await sendOrderWhatsApp(orderDetails);
 
-  if (!smsSent) {
-    // If SMS fails, we should still accept the order but log the issue
-    console.error(`Failed to send SMS for order ${orderId}`);
+  if (!whatsappSent) {
+    // If WhatsApp fails, we should still accept the order but log the issue
+    console.error(`Failed to send WhatsApp for order ${orderId}`);
 
     // In production, you might want to:
     // 1. Store the order in a database
