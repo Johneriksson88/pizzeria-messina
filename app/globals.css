@@ -26,3 +26,17 @@
     font-family: "Inter", sans-serif;
   }
 }
+
+/* Cart bounce animation */
+@keyframes cart-bounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.cart-bounce {
+  animation: cart-bounce 0.3s ease-in-out;
+}

@@ -2,8 +2,10 @@
 // Staff can edit a Google Sheet and changes appear on the website
 
 export interface SheetMenuItem {
+  active: boolean;
   category: string;
   subcategory?: string;
+  categoryPrice?: string;
   number?: string;
   name: string;
   description: string;
@@ -13,7 +15,7 @@ export interface SheetMenuItem {
 // Parse CSV from Google Sheets
 function parseCSV(csv: string): SheetMenuItem[] {
   const lines = csv.trim().split('\n');
-  const headers = lines[0].split(',').map(h => h.trim().toLowerCase());
+  const headers = lines[0].split(',').map(h => h.trim().toLowerCase().replace(/\s+/g, '_'));
 
   return lines.slice(1).map(line => {
     // Handle commas inside quoted strings
@@ -33,17 +35,22 @@ function parseCSV(csv: string): SheetMenuItem[] {
     }
     values.push(current.trim());
 
+    const getValue = (col: string) => values[headers.indexOf(col)] || '';
+    const activeValue = getValue('active').toLowerCase();
+
     const item: SheetMenuItem = {
-      category: values[headers.indexOf('category')] || '',
-      subcategory: values[headers.indexOf('subcategory')] || undefined,
-      number: values[headers.indexOf('number')] || undefined,
-      name: values[headers.indexOf('name')] || '',
-      description: values[headers.indexOf('description')] || '',
-      price: values[headers.indexOf('price')] || undefined,
+      active: activeValue === 'true' || activeValue === '1' || activeValue === 'ja' || activeValue === 'yes',
+      category: getValue('category'),
+      subcategory: getValue('subcategory') || undefined,
+      categoryPrice: getValue('category_price') || undefined,
+      number: getValue('number') || undefined,
+      name: getValue('name'),
+      description: getValue('description'),
+      price: getValue('price') || undefined,
     };
 
     return item;
-  }).filter(item => item.name); // Filter out empty rows
+  }).filter(item => item.name && item.active); // Filter out empty rows and inactive items
 }
 
 // Fetch menu from Google Sheets
@@ -56,16 +63,31 @@ export async function fetchMenuFromSheets(): Promise<SheetMenuItem[]> {
   }
 
   try {
+    // In development, use no-store to always get fresh data
+    // In production, use revalidate for ISR
+    const isDev = process.env.NODE_ENV === 'development';
+
     const response = await fetch(sheetUrl, {
-      next: { revalidate: 300 } // Revalidate every 5 minutes
+      cache: isDev ? 'no-store' : undefined,
+      next: isDev ? undefined : { revalidate: 300 }
     });
+
+    console.log(`[Sheets] Fetching from Google Sheets... Status: ${response.status}`);
 
     if (!response.ok) {
       throw new Error(`Failed to fetch: ${response.status}`);
     }
 
     const csv = await response.text();
-    return parseCSV(csv);
+    const items = parseCSV(csv);
+    console.log(`[Sheets] Parsed ${items.length} active menu items`);
+
+    // Log first item for debugging
+    if (items.length > 0) {
+      console.log(`[Sheets] Sample item: ${items[0].name} - ${items[0].price || items[0].categoryPrice}`);
+    }
+
+    return items;
   } catch (error) {
     console.error('Error fetching menu from Google Sheets:', error);
     return [];

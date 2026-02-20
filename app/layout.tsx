@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CartProvider } from "@/context/CartContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -35,7 +36,9 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="h-full font-body antialiased">{children}</body>
+      <body className="h-full font-body antialiased">
+        <CartProvider>{children}</CartProvider>
+      </body>
     </html>
   );
 }

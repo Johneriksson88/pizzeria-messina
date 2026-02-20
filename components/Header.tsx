@@ -1,9 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { Pizza, ShoppingBag, Phone } from "lucide-react";
+import { Pizza, ShoppingCart, Phone } from "lucide-react";
+import { useCart } from "@/context/CartContext";
 
 export default function Header() {
+  const { getTotalItems, cartBounce } = useCart();
+  const totalItems = getTotalItems();
+
   return (
     <header className="flex h-20 w-full items-center justify-between bg-[var(--pizzeria-charcoal)] px-[60px]">
       {/* Logo */}
@@ -41,12 +45,24 @@ export default function Header() {
           Kontakt
         </Link>
 
+        {/* Shopping Cart */}
+        <Link
+          href="/bestall"
+          className={`relative flex items-center gap-2 transition-transform ${cartBounce ? "cart-bounce" : ""}`}
+        >
+          <ShoppingCart className="h-6 w-6 text-white/80 transition-colors hover:text-white" />
+          {totalItems > 0 && (
+            <span className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-[var(--pizzeria-red)] text-xs font-bold text-white">
+              {totalItems}
+            </span>
+          )}
+        </Link>
+
         {/* Order Button */}
         <Link
           href="/bestall"
           className="flex items-center gap-2 rounded-full bg-[var(--pizzeria-red)] px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
         >
-          <ShoppingBag className="h-4 w-4" />
           <span>Beställ Online</span>
         </Link>
 

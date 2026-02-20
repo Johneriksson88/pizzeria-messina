@@ -15,23 +15,27 @@ Website for Pizzeria Messina in Tyresö, Sweden. Built with Next.js 15 + Tailwin
 ```
 app/
 ├── page.tsx              # Homepage
-├── meny/page.tsx         # Full menu page
+├── meny/page.tsx         # Full menu page (with add-to-cart buttons)
 ├── bestall/page.tsx      # Online order page
 ├── actions/order.ts      # Server action for orders
-├── layout.tsx            # Root layout
+├── layout.tsx            # Root layout (wraps CartProvider)
+├── globals.css           # Global styles + cart bounce animation
 components/
-├── Header.tsx            # Site header with nav
+├── Header.tsx            # Site header with nav + cart icon
 ├── Hero.tsx              # Homepage hero
 ├── MenuHighlights.tsx    # Featured dishes
 ├── About.tsx             # About section
 ├── Contact.tsx           # Contact info
 ├── Footer.tsx            # Site footer
 ├── FullMenu.tsx          # Menu display component
+context/
+├── CartContext.tsx       # Global cart state (persists via localStorage)
 data/
-├── menu.ts               # All menu data (pizzas, kebab, pasta, etc.)
+├── menu.ts               # All menu data (fallback for Google Sheets)
 lib/
 ├── email.ts              # Nodemailer SMTP integration
-├── sheets.ts             # Google Sheets integration (prepared, not active)
+├── sheets.ts             # Google Sheets CSV parser
+├── menuFromSheets.ts     # Transform sheet data to UI format
 ```
 
 ## Brand Colors (CSS Variables)
@@ -50,11 +54,13 @@ lib/
 - [x] Homepage with hero, menu highlights, about, contact
 - [x] Full menu page with category tabs (Pizza, Kebab, Pasta, Sallader, Lunch, etc.)
 - [x] Online ordering page (`/bestall`) with cart functionality
+- [x] **Global cart state** - persists across pages via localStorage
+- [x] **Add to cart from menu** - + buttons on all items (except Lunch)
+- [x] **Cart icon in header** - with item count badge and bounce animation
+- [x] **CTA banner on menu page** - promotes online ordering
 - [x] Email notifications for orders via SMTP (Nodemailer)
 - [x] Swedish language throughout
-
-### Prepared (not active)
-- [ ] Google Sheets menu integration (`lib/sheets.ts` ready)
+- [x] Google Sheets menu integration (`lib/sheets.ts` + `lib/menuFromSheets.ts`)
 
 ## Menu Data
 All menu items are in `data/menu.ts`:
@@ -81,6 +87,16 @@ ORDER_EMAIL_CC=optional-cc@example.com
 # Google Sheets (optional, for dynamic menu)
 GOOGLE_SHEET_CSV_URL=https://docs.google.com/spreadsheets/d/xxx/export?format=csv
 ```
+
+## Google Sheets Menu Integration
+The owner can update menu items via Google Sheets. Sheet columns:
+- `active` - TRUE/FALSE to show/hide items
+- `category` - Pizza, Kebab, Pasta, Sallader, Lunch, Barnmeny, A la Carte
+- `subcategory` - For pizzas: Klass 1, Klass 2, etc.
+- `category_price` - Shared price for subcategory (e.g., "137 kr")
+- `number`, `name`, `description`, `price`
+
+Data is cached for 5 minutes. Falls back to `data/menu.ts` if fetch fails.
 
 ## Commands
 ```bash

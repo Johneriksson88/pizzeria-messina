@@ -1,0 +1,115 @@
+active,category,subcategory,category_price,number,name,description,price
+TRUE,Pizza,Klass 1,137 kr,1,Margherita,"Ost, färsk basilika, mozzarella",
+TRUE,Pizza,Klass 1,137 kr,2,Vesuvio,Skinka,
+TRUE,Pizza,Klass 1,137 kr,3,Capricciosa,"Skinka, champinjoner",
+TRUE,Pizza,Klass 1,137 kr,4,Hawaii,"Skinka, ananas",
+TRUE,Pizza,Klass 1,137 kr,5,Bolognese,"Köttfärssås, lök",
+TRUE,Pizza,Klass 1,137 kr,6,Salami,"Ventriccina piccante, gröna oliver",
+TRUE,Pizza,Klass 1,137 kr,7,Napolitana,"Sardeller, kalamataoliver",
+TRUE,Pizza,Klass 2,147 kr,8,Pepperoni,"Mozzarella, pepperonikorv",
+TRUE,Pizza,Klass 2,147 kr,9,Gorgonzola,"Skinka, gorgonzola, körsbärstomat",
+TRUE,Pizza,Klass 2,147 kr,10,Bussola,"Skinka, handskalade räkor",
+TRUE,Pizza,Klass 2,147 kr,11,Prezzemolo,"Handskalade räkor, färsk persilja, vitlök, sambal oelek",
+TRUE,Pizza,Klass 2,147 kr,12,Tropicana,"Skinka, banan, ananas, curry",
+TRUE,Pizza,Klass 2,147 kr,13,Roma,"Skinka, champinjoner, handskalade räkor",
+TRUE,Pizza,Klass 2,147 kr,14,Quattro Stagioni,"Skinka, handskalade räkor, champinjoner, gröna musslor, kronärtskocka, kalamataoliver",
+TRUE,Pizza,Klass 2,147 kr,15,Di Pollo,"Kyckling, banan, ananas, curry, jordnötter",
+TRUE,Pizza,Klass 2,147 kr,16,Kebab Pizza,"Kebabkött, körsbärstomat, lök, fefferoni, vitlökssås, stark sås",
+TRUE,Pizza,Klass 3,155 kr,17,Scampi,"Marinerade scampi, champinjoner, färsk persilja, vitlök, körsbärstomater",
+TRUE,Pizza,Klass 3,155 kr,18,Messina Special,"Oxfilé, champinjoner, körsbärstomat, lök, fefferoni, paprika, vitlök, bearnaisesås",
+TRUE,Pizza,Klass 3,155 kr,19,Black & White,"Oxfilé, fläskfilé, champinjoner, körsbärstomat, paprika, vitlök, bearnaisesås",
+TRUE,Pizza,Klass 3,155 kr,20,Kebab Pizza Special,"Kebabkött, pommes, isbergssallad, körsbärstomater, röd lök, fefferoni, vitlökssås, stark sås",
+TRUE,Pizza,Klass 3,155 kr,21,Milano,"Pepperonikorv, äkta grekisk fetaost, körsbärstomat, kalamataoliver, färsk basilika",
+TRUE,Pizza,Klass 3,155 kr,22,Husets (gratinerad),"Handskalade räkor, skinka, champinjoner, lök, paprika",
+TRUE,Pizza,Klass 3,155 kr,23,La Favorita,"Oxfilé, gorgonzola, champinjoner, körsbärstomater, jalapeño, bearnaisesås",
+TRUE,Pizza,Klass 3,155 kr,24,Viking (inbakad),"Kebabkött, isbergssallad, körsbärstomater, fefferoni, vitlökssås, stark sås",
+TRUE,Pizza,Klass 3,155 kr,25,Havets Special,"Scampi, kräftstjärtar, gröna musslor, vitlök, rucola, citron, sambal oelek",
+TRUE,Pizza,Klass 3,155 kr,26,Tabasco,"Oxfilé, champinjoner, röd lök, körsbärstomater, tabasco, parmigiano reggiano, bearnaisesås",
+TRUE,Pizza,Delikates,159 kr,28,Al Prosciutto,"Prosciutto, soltorkade tomater, rucola, parmigiano reggiano",
+TRUE,Pizza,Delikates,159 kr,29,Venedig,"Avokado, soltorkade tomater, färsk basilika, paprika, honung, chèvre, valnötter",
+TRUE,Pizza,Delikates,159 kr,30,Honung,"Prosciutto, chèvre, rostade valnötter, rucola, pesto rosso",
+TRUE,Pizza,Delikates,159 kr,31,Avokado,"Champinjoner, kronärtskocka, handskalade räkor, pinjenötter, rucola, citron",
+TRUE,Pizza,Delikates,159 kr,32,Mezza Luna (inbakad/öppen),"Ost, skinka, prosciutto, rucola, parmigiano reggiano, extra virgin olivolja",
+TRUE,Pizza,Delikates,159 kr,33,Formaggio,"Mozzarella, äkta grekisk fetaost, gorgonzola, parmigiano reggiano, färsk basilika",
+TRUE,Pizza,Delikates,159 kr,34,Kantareller,"Chèvre, rödlök, honung, ventriccina piccante, färsk basilika, pesto rosso",
+TRUE,Pizza,Delikates,159 kr,35,Bagarens,"Prosciutto, kronärtskocka, rödlök, körsbärstomater, rucola, parmigiano reggiano",
+TRUE,Pizza,Delikates,159 kr,36,Rödbetspizza,"Rödbetor, chèvre, valnötter, sparris, crema di balsamico, rucola",
+TRUE,Pizza,Delikates,159 kr,37,Halloumi Pizza,"Halloumi, avokado, valnötter, crema di balsamico, körsbärstomater, rucola",
+TRUE,Pizza,Gourmet,168 kr,38,Alle Melanzane,"Rökt aubergineröra, körsbärstomater, champinjoner, finhackad vitlök, kronärtskocka, kalamataoliver, basilika",
+TRUE,Pizza,Gourmet,168 kr,39,Diavola,"Färsk salsiccia, röd chili, gorgonzola, körsbärstomater, karamelliserad lök, basilika, svartpeppar",
+TRUE,Pizza,Gourmet,168 kr,40,Fikon,"Prosciutto, chèvre, färsk fikon, rostade valnötter, rucola, crema di balsamico",
+TRUE,Pizza,Gourmet,168 kr,41,Villa Dante,"Prosciutto, ventriccina piccante, karamelliserad lök, körsbärstomater, champinjoner, pinjenötter, balsamico",
+TRUE,Pizza,Gourmet,168 kr,42,Barbeque Pizza,"Oxfilé, soltorkade tomater, champinjoner, röd chili, hackad vitlök, bearnaisesås, barbequesås (utan tomatsås)",
+TRUE,Pizza,Mexikanska,,43,Mexicana,"Köttfärssås, lök, jalapeño, vitlök, tacosås, tacokrydda",149 kr
+TRUE,Pizza,Mexikanska,,44,Azteka,"Skinka, jalapeño, tacosås, tacokrydda, gräddfil",149 kr
+TRUE,Pizza,Mexikanska,,45,Acapulco,"Oxfilé, champinjoner, lök, jalapeño, vitlök, tacosås, tacokrydda",155 kr
+TRUE,Pizza,Vegetariska,149 kr,46,Rimini,"Äkta grekisk fetaost, soltorkade tomater, champinjoner, kalamataoliver, färsk basilika",
+TRUE,Pizza,Vegetariska,149 kr,47,Vegetarisk,"Champinjoner, lök, körsbärstomater, kalamataoliver, paprika, kronärtskocka, vitlök",
+TRUE,Pizza,Vegetariska,149 kr,48,Ortolana,"Champinjoner, aubergine, zucchini, oliver, lök, paprika, körsbärstomater, vitlök",
+TRUE,Pizza,Vegetariska,149 kr,49,Pomodoro,"Mozzarella, körsbärstomater, basilika, svartpeppar, kalamataoliver, extra virgin olivolja",
+TRUE,Pizza,Inbakade,,50,Calzone,Skinka,137 kr
+TRUE,Pizza,Inbakade,,51,Calzone Capri,"Skinka, champinjoner",145 kr
+TRUE,Pizza,Inbakade,,52,Calzone Bussola,"Handskalade räkor, skinka",145 kr
+TRUE,Pizza,Inbakade,,53,Calzone Special,"Handskalade räkor, skinka, champinjoner",149 kr
+TRUE,Pizza,Inbakade,,54,Tefat (dubbelinbakad),"Handskalade räkor, skinka, champinjoner",155 kr
+TRUE,Pizza,Inbakade,,55,Super Calzone,"Oxfilé, körsbärstomater, gorgonzola, röd chili, bearnaisesås",155 kr
+TRUE,Pizza,Inbakade,,56,Verzino (halv inbakad),"Oxfilé, champinjoner, körsbärstomater, röd chili, rucola, bearnaisesås, vitlök",155 kr
+TRUE,Pizza,Pan,,,Dallas,"Oxfilé, champinjoner, körsbärstomater, lök, paprika, bearnaisesås",S 189 kr / M 219 kr
+TRUE,Pizza,Pan,,,Alaska,"Fläskfilé, röd chili, champinjoner, vitlök, bearnaisesås",S 189 kr / M 219 kr
+TRUE,Pizza,Pan,,,Honolulu,"Skinka, banan, ananas, curry, jordnötter",S 189 kr / M 219 kr
+TRUE,Pizza,Pan,,,Arizona,"Oxfilé, gorgonzola, tomater, jalapeño, bearnaisesås",S 189 kr / M 219 kr
+TRUE,Pizza,Pan,,,Montana,"Pepperonikorv, basilika, körsbärstomater",S 189 kr / M 219 kr
+TRUE,Kebab,,,,Med hembakat bröd,"Kebab, gyros eller falafel i hembakat bröd",115 kr
+TRUE,Kebab,,,,Med hembakad rulle,"Kebab, gyros eller falafel i hembakad rulle",139 kr
+TRUE,Kebab,,,,Tallrik,"Med pommes, ris eller bulgur",145 kr
+TRUE,Pasta,,,1,Bolognese,"Spaghetti med köttfärssås, parmigiano reggiano",155 kr
+TRUE,Pasta,,,2,Carbonara,"Tagliatelle, bacon, lök, svartpeppar och äggula toppad med parmigiano reggiano",155 kr
+TRUE,Pasta,,,3,Canneloni (vegetarisk),"Gratinerad med västerbottenost, kantareller och parmigiano reggiano",155 kr
+TRUE,Pasta,,,4,Delizie (gratinerad),"Med skinka, parmigiano reggiano och zucchini",155 kr
+TRUE,Pasta,,,5,Lasagne al Forno,"Gratinerad, hemlagad lasagne",155 kr
+TRUE,Pasta,,,6,Pasta con Pomodorini,"Tagliatelle, körsbärstomater, basilika, vitlök, svartpeppar, toppad med färsk mozzarella",155 kr
+TRUE,Pasta,,,7,Pasta con Scampi,"Tagliatelle, scampi, vitlök, champinjoner, färsk persilja, svartpeppar, citron, parmigiano reggiano, röd chili",169 kr
+TRUE,Pasta,,,8,Pasta con Filetto di Manzo,"Oxfilé, soltorkade tomater, champinjoner, persilja och parmigiano reggiano",169 kr
+TRUE,Pasta,,,9,Pasta con Carne di Maiale,"Fläskfilé, kantareller, röd chili, färsk basilika, toppad med parmigiano reggiano",169 kr
+TRUE,Pasta,,,10,Pasta con Pollo,"Tagliatelle, kyckling, soltorkade tomater, paprika, curry, pesto, parmigiano reggiano, basilika",169 kr
+TRUE,Pasta,,,11,Pasta al Salmone,"Tagliatelle, laxbitar, avokado, champinjoner, körsbärstomater, citron, basilika",169 kr
+TRUE,Pasta,,,12,La Pasta dello Chef,"Oxfilé, gorgonzola, röd chili, champinjoner, toppad med parmigiano reggiano",169 kr
+TRUE,Sallader,,149 kr,1,Ost och Skinksallad,"Skinka, ost, ananas, ägg, majs",
+TRUE,Sallader,,149 kr,2,Grekisk Sallad,"Äkta grekisk fetaost, rödlök, kalamataoliver, citron, fefferoni",
+TRUE,Sallader,,149 kr,3,Tonfisksallad,"Tonfisk, rödlök, citron, kalamataoliver, ägg, majs",
+TRUE,Sallader,,149 kr,4,Kycklingsallad,"Kyckling, rödlök, kalamataoliver, majs, ananas, ägg",
+TRUE,Sallader,,149 kr,5,Kebabsallad,"Kebabkött, röd lök, fefferoni",
+TRUE,Sallader,,149 kr,6,Räksallad,"Handskalade räkor, ost, oliver, ägg, citron, rucola, majs",
+TRUE,Sallader,,149 kr,7,Avokadosallad,"Avokado (hel), skinka, ost, handskalade räkor, citron, ägg, majs",
+TRUE,Sallader,,149 kr,8,Caesarsallad,"Kyckling, röd lök, krutonger, majs, parmigiano reggiano",
+TRUE,Sallader,,149 kr,9,Fikonsallad,"Färsk fikon, prosciutto, färsk mozzarella, valnötter, majs, balsamico",
+TRUE,Sallader,,149 kr,10,Sanna's Special,"Kyckling, chèvre, balsamico, valnötter, gröna oliver, majs",
+TRUE,Sallader,,149 kr,11,Honungsallad,"Avokado, prosciutto, soltorkade tomater, valnötter, färsk basilika, honung, chèvre, majs",
+TRUE,Sallader,,149 kr,12,Chèvresallad,"Chèvre, kyckling, lök, honung, soltorkade tomater, valnötter, majs, russin",
+TRUE,Sallader,,149 kr,13,Haloumisallad,"Halloumi, avokado, parmigiano reggiano, majs, russin, rödbetor",
+TRUE,Sallader,,149 kr,14,Kräftsallad,"Kräftstjärtar, avokado, röd lök, parmigiano reggiano, majs, ägg",
+TRUE,Lunch,Standard,137 kr,,Pizza (nr 1-7),Valfri pizza från Klass 1,
+TRUE,Lunch,Standard,137 kr,,Pasta (nr 1-6),Valfri pasta från menyn,
+TRUE,Lunch,Standard,137 kr,,Sallader,Valfri sallad från menyn,
+TRUE,Lunch,Standard,137 kr,,Kebab,Med valfritt tillbehör,
+TRUE,Lunch,Standard,137 kr,,Gyros,Med valfritt tillbehör,
+TRUE,Lunch,Standard,137 kr,,Falafel,Med valfritt tillbehör,
+TRUE,Lunch,Dagens,137 kr,,Högrevsburgare,Hemmagjord med pommes och chilimajo,
+TRUE,Lunch,Dagens,137 kr,,Kycklingbröstfilé,"På grillpanna, serveras med rödvinssås, ris eller bulgur",
+TRUE,Lunch,Dagens,137 kr,,Panerad Fisk,"Med remouladsås, serveras med ris eller pommes",
+TRUE,Lunch,Dagens,137 kr,,Fläsknoisette,Med pommes och bearnaisesås,
+TRUE,Lunch,Dagens,137 kr,,Fläskschnitzel,"Serveras med stekt potatis, rödvinssås, ärtor och citron",
+TRUE,Barnmeny,,,,Pannkakor (4 st),Med sylt och grädde,89 kr
+TRUE,Barnmeny,,,,90 gr Meny,Med pommes och läsk 33 cl,119 kr
+TRUE,Barnmeny,,,,Chicken Nuggets (5 bitar),"Av kycklingbröstfilé, serveras med sallad, pommes och valfri sås",119 kr
+TRUE,Barnmeny,,,,Spaghetti Bolognese,Pasta med köttfärssås,125 kr
+TRUE,Barnmeny,,,,Lasagne,Hemlagad lasagne,125 kr
+TRUE,Barnmeny,,,,Pizza,Valfri pizza i mindre storlek,15 kr mindre än ordinarie
+TRUE,A la Carte,,,,Chicken Nuggets (9 bitar),"Av kycklingbröstfilé, serveras med sallad, pommes och valfri sås",139 kr
+TRUE,A la Carte,,,,Högrevsburgare (150 gr),"Hemmagjord med karamelliserad lök, cheddar, jalapeño, tomat",149 kr
+TRUE,A la Carte,,,,Hälsotallrik,"Grillad kycklingfilé serveras med sallad, avokado, körsbärstomater, färsk mozzarella, bulgur och crema di balsamico",159 kr
+TRUE,A la Carte,,,,Fläsknoisette,"Serveras med bearnaisesås, rödvinssås, stekt lök och tomat",195 kr
+TRUE,A la Carte,,,,Schnitzel,"Serveras med gröna ärtor, citron, vitlökssmör, grillad zucchini och rödvinssås",199 kr
+TRUE,A la Carte,,,,Dagens Fisk,"Serveras med remouladsås, sallad, pommes eller ris",195 kr
+TRUE,A la Carte,,,,Filé Oscar (Fläskfilé),"Serveras med handskalade räkor, grön sparris och grillad tomat, bearnaisesås",205 kr
+TRUE,A la Carte,,,,Grillad Entrecôte,"Serveras med vitlökssmör, grillad körsbärstomat, rödvinssås och bearnaisesås",259 kr
