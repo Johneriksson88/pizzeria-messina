@@ -77,8 +77,8 @@ export const pizzaCategories: MenuCategory[] = [
     ],
   },
   {
-    id: "delikates",
-    name: "Delikates Pizzor",
+    id: "delikatess",
+    name: "Delikatess Pizzor",
     price: "159 kr",
     description: "Med mozzarella",
     items: [

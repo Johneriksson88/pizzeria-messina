@@ -64,7 +64,7 @@ lib/
 
 ## Menu Data
 All menu items are in `data/menu.ts`:
-- **Pizza:** 56 pizzas across 9 categories (Klass 1-3, Delikates, Gourmet, Mexikanska, Vegetariska, Inbakade, Pan)
+- **Pizza:** 56 pizzas across 9 categories (Klass 1-3, delikatess, Gourmet, Mexikanska, Vegetariska, Inbakade, Pan)
 - **Kebab:** 10+ items
 - **Pasta:** 10+ items
 - **Sallader:** 8 items

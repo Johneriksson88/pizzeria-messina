@@ -18,7 +18,7 @@ const PIZZA_SUBCATEGORIES: Record<string, { id: string; description?: string }> 
   'Klass 1': { id: 'klass1' },
   'Klass 2': { id: 'klass2' },
   'Klass 3': { id: 'klass3' },
-  'Delikates': { id: 'delikates', description: 'Med mozzarella' },
+  'delikatess': { id: 'delikatess', description: 'Med mozzarella' },
   'Gourmet': { id: 'gourmet', description: 'På napolitansk vis — olivolja, hyvlad parmesan och fior di latte ingår' },
   'Mexikanska': { id: 'mexikanska' },
   'Vegetariska': { id: 'vegetariska' },
@@ -70,8 +70,8 @@ function buildPizzaCategories(pizzaItems: Record<string, SheetMenuItem[]>): Menu
         ? `Pizzor ${subcatName}`
         : subcatName === 'Gourmet'
         ? "Messina's Gourmet Pizzor"
-        : subcatName === 'Delikates'
-        ? 'Delikates Pizzor'
+        : subcatName === 'delikatess'
+        ? 'Delikatess Pizzor'
         : subcatName === 'Mexikanska'
         ? 'Mexikanska Pizzor'
         : subcatName === 'Vegetariska'

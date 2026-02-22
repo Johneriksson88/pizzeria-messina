@@ -9,7 +9,7 @@ const previewItems = [
   { ...pizzaCategories[0].items[0], class: "Klass 1", classPrice: "137 kr" }, // Margherita
   { ...pizzaCategories[1].items[8], class: "Klass 2", classPrice: "147 kr" }, // Kebab Pizza
   { ...pizzaCategories[2].items[1], class: "Klass 3", classPrice: "155 kr" }, // Messina Special
-  { ...pizzaCategories[3].items[2], class: "Delikates", classPrice: "159 kr" }, // Honung
+  { ...pizzaCategories[3].items[2], class: "delikatess", classPrice: "159 kr" }, // Honung
   { ...pizzaCategories[4].items[1], class: "Gourmet", classPrice: "168 kr" }, // Diavola
   { ...pizzaCategories[6].items[1], class: "Vegetarisk", classPrice: "149 kr" }, // Vegetarisk
 ];
